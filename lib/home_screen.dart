@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final categories = ['Category 1', 'Category 2', 'Category 3'];
     final random = Random();
 
-    for (int i = 0; i < 50; i++) {
+    for (int i = 0; i < 1000; i++) {
       sampleItems.add({
         'name': 'Item $i',
         'location': '${random.nextDouble() * 180 - 90}, ${random.nextDouble() * 360 - 180}', // Random LatLng
